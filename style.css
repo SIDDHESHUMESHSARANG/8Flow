@@ -99,8 +99,8 @@ textarea {
 
 #button{
   position: absolute;
-  top: 120px; 
-  left: 78%;
+  bottom: 120px; 
+  left: 48%;
   border: 2px solid blue;
   border-radius: 20px;
   background-color: blue;

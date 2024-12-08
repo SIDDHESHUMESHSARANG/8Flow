@@ -16,3 +16,13 @@ document.getElementById("button").addEventListener("click", function () {
 
     URL.revokeObjectURL(url);
 });
+
+function isMobileDevice() {
+    return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    if (isMobileDevice()) {
+        window.location.href = "formobusers.html"; // Replace with your own page URL
+    }
+});
